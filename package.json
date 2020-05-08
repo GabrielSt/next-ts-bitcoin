@@ -1,0 +1,41 @@
+{
+  "name": "next-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
+    "font-awesome": "^4.7.0",
+    "next": "^9.3.6",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.1.0",
+    "next-images": "^1.4.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-burger-menu": "^2.6.13",
+    "react-charts": "^2.0.0-beta.6",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@zeit/next-typescript": "^1.1.1",
+    "sass-loader": "^8.0.2",
+    "typescript": "^3.8.3"
+  }
+}
